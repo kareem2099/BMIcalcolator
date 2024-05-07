@@ -259,7 +259,9 @@ class _BMIcalcScreenState extends State<BMIcalcScreen> {
                         hoverColor: genderColor,
                         onPressed: () {
                           setState(() {
-                            age--;
+                            age = age > 0
+                                ? age - 1
+                                : 0; // Prevent age from going below 0
                           });
                         },
                         mini: true,

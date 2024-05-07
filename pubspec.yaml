@@ -19,6 +19,7 @@ dependencies:
   flutter_animation_progress_bar: ^2.3.1
   shake_animation_widget: ^3.0.4
   fancy_containers: ^0.0.5
+  screenshot: ^2.3.0
 
 dev_dependencies:
   flutter_test:
